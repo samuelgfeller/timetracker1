@@ -1,0 +1,43 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+time{
+  font-family:  monospace;
+  font-size: 110%;
+  font-weight: bolder;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+.form{
+  margin-left: 50px;
+  padding-bottom: 30px;
+}
+.form select, .form input[type=text]{
+  padding: 6px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 160px;
+  box-sizing: border-box;
+}
+.form input[type=submit] {
+    width: 160px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    color: black;
+    padding: 8px 13px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 110%;
+}
+.form input[type=submit]:hover {
+    background-color: #0078d7;
+    color: white;
+}
+#addObjectsBtn,#showResultsBtn{
+  padding: 6px 10px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
